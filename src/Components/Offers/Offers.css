@@ -1,0 +1,47 @@
+.offer-details h4{
+    color: #fcb040;
+    font-family: 'Lobster', cursive;
+}
+.offer-details h1 {
+    font-size: 60px;
+    color: #4b5664;
+    letter-spacing: -3px;
+}
+.offer-details p {
+    width: 40%;
+    font-size: 14px;
+    color: #4b5664;
+}
+.offer-details {
+    width: 90%;
+}
+.travel-details h5 {
+    font-size: 17px;
+    font-weight: 700;
+}
+.travel-details {
+    width: 40%;
+    margin: 45px 0;
+}
+.part-one h5 {
+    color: #4b5664;
+}
+.part-two h5 {
+    color: #fcb040;
+}
+.offer-btn {
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    background-color: #fcb040;
+    color: white !important;
+    font-weight: 700;
+    border-radius: 30px;
+    letter-spacing: -1px;
+    transition: all .2s;
+    text-decoration: none;
+}
+.offer-btn:hover{
+    background-color: #4b5664;
+    color: white;
+    border-color: white;
+}

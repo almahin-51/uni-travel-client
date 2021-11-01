@@ -1,0 +1,25 @@
+.gallery-details {
+    background-color:#fab03f;
+    position: relative;
+}
+.gallery {
+    margin:0px;
+}
+.gallery-details .inner {
+    text-align: start;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.gallery-details h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+.gallery-details p {
+    color: white;
+    font-size:15px ;
+}

@@ -1,0 +1,29 @@
+.about-section {
+    background-image: url("../img/slides/slides_1.jpg");
+    position: relative;
+    z-index: 1;
+    height: 425px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-details {
+    text-align: start;
+}
+.about-details h4 {
+    color: #fcb040;
+    font-family: 'Lobster', cursive;
+}
+.about-details h1 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+.about-details p {
+    color: #818892;
+    font-size: 14px;
+    width: 65%;
+}

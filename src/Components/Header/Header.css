@@ -1,0 +1,94 @@
+.logo-header{
+    width: 200px;
+}
+.header-btn {
+    background-color: #fcb040;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid transparent;
+    padding: 18px 15px;
+    letter-spacing: -1px;
+    transition: all .3s;
+}
+.header-btn:hover {
+    background-color: #4b5664;
+}
+.header-link a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4b5664;
+}
+.carousel-img img {
+    height:98.5%;
+    object-fit: cover;
+}
+.logOut {
+    width: 45px;
+}
+
+.logOut img {
+    width: 100%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.logOut_toggle {
+    position: relative;
+}
+.drop_down {
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color: #ffffffee;
+    right: -5px;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+    width: 225px;
+    border: 1px solid #ccc;
+}
+.active {
+    display: block !important;
+}
+.manage {
+    margin-right: 10px;
+}
+.manage button {
+    font-size: 13px;
+    padding: 5px;
+}
+.small {
+    display: none !important;
+}
+
+@media (max-width: 425px) {
+    
+    .carousel-img {
+        height: 100vh;
+    }
+    .carousel-img img{
+        height: 100vh;
+    }
+    .slide-data h1 {
+        font-size: 35px !important;
+        letter-spacing: normal !important;
+    }
+    .slide-data p {
+        font-size: 13px;
+    }
+    .small {
+        display: block !important;
+    }
+    .small a {
+        color: #fab03f !important;
+    }
+    .head-nav {
+        display: none !important;
+    }
+    .manage {
+        display: none;
+    }
+    .drop_down {
+        width: 225px;
+    }
+}
